@@ -6,23 +6,23 @@ echo "Hello, my name is ${name}"
 printf '\n'
 
 
-count=1 # iteration count
+counter=1 # iteration count
 loop=3 # loop count
 
 # looping with while loop
-while [ "${count}" -le "${loop}" ]; do
-  echo "----------------Iteration #$count----------------"
+while [ "${counter}" -le "${loop}" ]; do
+  echo "----------------Iteration #$counter----------------"
   printf '\n'
 
   # print memory usage
   echo "Ukuran memori sistem (MB):"
-  free -m
+  free --mega
   printf '\n'
   sleep 1
 
   # print disk usage
   echo "Penggunaan ruang disk pada filesystem (GB):"
-  df -BG
+  df --block-size=GB
   printf '\n'
   sleep 1
 
@@ -33,5 +33,5 @@ while [ "${count}" -le "${loop}" ]; do
   sleep 1
 
   # increment iteration count
-  count=$((count + 1))
+  counter=$((counter + 1))
 done

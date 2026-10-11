@@ -105,448 +105,450 @@
   105  pnpm -v
   106  p10k cofigure
   107  p10k configure
-  109  cat ~/.zshrc | grep -A2 plugins
-  110  mkdir -p ~/.local/share/fonts\ncd /tmp\n\nwget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/UbuntuMono.zip\nunzip UbuntuMono.zip -d ~/.local/share/fonts/UbuntuMonoNF\nfc-cache -fv
-  111  fc-list | grep -i "UbuntuMono Nerd"
-  112  sudo apt upgrade
-  113  cd ./idsantri
-  114  sudo apt install wine
-  115  cd /tmp\nwget https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/microsoft-edge-stable_current_amd64.deb 2>/dev/null || \\ncurl -L -o microsoft-edge-stable_current_amd64.deb "https://packages.microsoft.com/keys/microsoft.asc"
-  116  sudo apt install ./build/releases/whatsapp-linux-x64.deb
-  117  pn run build:linux
-  118  pn audit fix
-  119  pn approve-scripts
-  120  git clone https://github.com/oOthkOo/whatsapp-desktop.git
-  121  cd whatsapp-desktop
-  122  cd build
-  123  l
-  124  chmod +x releases
-  125  apt install releases
-  126  sudo apt install releases
-  127  sudo apt install releases -f
-  128  npm approve-scripts --allow-scripts-pending
-  129  npm approve-scripts electron
-  130  npm run build:all
-  131  yarn -v
-  132  chmod 777 .
-  133  cd ~/Documents/Repositories/idsantri-admin
-  134  pnpm install -g opencode-ai
-  135  curl -fsSL https://cli.kiro.dev/install | bash
-  136  kiro
-  137  Kiro
-  138  kiro-cli
-  139  gemini
-  140  pn i -g 9router
-  141  9router
-  142  rtk
-  143  curl -fsSL https://raw.githubusercontent.com/kernalix7/winpodx/main/uninstall.sh | bash -s -- --yes
-  144  npm run build:linux
-  145  apt install vlc
-  146  sudo apt install vlc
-  147  curl -fsSL https://antigravity.google/cli/install.sh | bash
-  148  art test tests/Feature/Admin/Auth/RegisterTest.php
-  149  art test tests/Feature
-  150  install nnn
-  151  install ranger
-  152  install lazygit
-  153  cd Reviews
-  154  cd React\ Dasar
-  155  cd luckyferdiansyah47
-  156  cd Projects
-  157  cd iass-api
-  158  lazygit
-  159  sudo apt update && sudo apt install software-properties-common apt-transport-https wget -y\n
-  160  sudo apt update && sudo apt install code -y\n
-  161  sudo tee /etc/apt/sources.list.d/vscode.list
-  162  tee ?
-  163  cd ../idsantri-admin
-  164  install xclip
-  165  install wl-clipboard
-  166  art test tests/Feature/Admin
-  167  art test tests/Feature/Admin/OrtuTest.php
-  168  art route:list
-  169  cd ~/repo
-  170  cd idsantri-wali
-  171  ranger
-  172  pn i vlc
-  173  install vlc
-  174  apt search teamviewer
-  175  sudo KEYRING=/usr/share/keyrings/cvte.exceedshare.debian.gpg
-  176  sudo apt install apt-transport-https
-  177  wget -qO- https://alryaz.github.io/cvte-exceedshare-debian/public.key | gpg --dearmor - | ${SUDO} tee $KEYRING >/dev/null\n
-  178  sudo su
-  179  sudo apt install -y gnome-network-displays
-  180  gnome-network-displays
-  181  iw list | grep -A 10 "Supported interface modes"
-  182  sudo apt install -y avahi-daemon\nsudo systemctl enable --now avahi-daemon
-  183  install deskreen
-  184  sudo snap install deskreen
-  185  install apt tightvncserver
-  186  vncserver:1
-  187  vncserver:1 -geometry
-  188  vncserver
-  189  apt install sunshine
-  190  sudo apt install sunshine
-  191  install neofetch
-  192  install fastfetch
-  193  cd ./data
-  194  cd Data
-  195  pn setup
-  196  firebase login
-  197  pn approve-builds 
-  198  nvm list
-  199  cls
-  200  quasar build
-  201  pn setup --force
-  202  source ~/.zshrc
-  203  pn approve-builds -g
-  204  firebase init
-  205  ping baniasror.net
-  206  spark migrate:fresh
-  207  spark migrate:refresh
-  208  composer upgrade
-  209  composer config minimum-stability dev\ncomposer config prefer-stable true
-  210  php spark shield:setup
-  212  gh auth 
-  214  git push origin dev:dev
-  215  spark migrate:refresh --all
-  216  chmod +x git-hooks/pre-commit
-  217  composer lint
-  218  git commit --amend -m "chore(composer): add config file creation to post-root-package-install script"
-  219  composer validate
-  220  sudo install -d -m 0755 /etc/apt/keyrings
-  221  sudo apt-get install wget\n
-  222  wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | sudo tee /etc/apt/keyrings/packages.mozilla.org.asc > /dev/null
-  223  gpg -n -q --import --import-options import-show /etc/apt/keyrings/packages.mozilla.org.asc | awk '/pub/{getline; gsub(/^ +| +$/,""); if($0 == "35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3") print "\nThe key fingerprint matches ("$0").\n"; else print "\nVerification failed: the fingerprint ("$0") does not match the expected one.\n"}'
-  224  sudo tee /etc/apt/sources.list.d/mozilla.sources > /dev/null << EOF\nTypes: deb\nURIs: https://packages.mozilla.org/apt\nSuites: mozilla\nComponents: main\nSigned-By: /etc/apt/keyrings/packages.mozilla.org.asc\nEOF
-  225  sudo tee /etc/apt/preferences.d/mozilla > /dev/null << EOF\nPackage: *\nPin: origin packages.mozilla.org\nPin-Priority: 1000\nEOF
-  226  udo snap remove firefox
-  227  sudo snap remove firefox
-  228  sudo tee /etc/apt/preferences.d/mozilla > /dev/null << EOF\nPackage: firefox\nPin: release o=Ubuntu\nPin-Priority: -1\nEOF
-  229  sudo apt-get update\nsudo apt-get install firefox
-  230  cat /etc/apt/preferences.d/mozilla
-  231  cat /etc/apt/sources.list.d/mozilla.list
-  232  ls -la /etc/apt/sources.list.d/ | grep -i mozilla
-  233  cat /etc/apt/sources.list.d/mozilla.sources
-  234  apt-cache policy firefox
-  235  apt-mark showhold | grep firefox
-  236  sudo apt purge -y firefox\nsudo apt autoremove -y
-  237  sudo apt update\nsudo apt install -y firefox
-  238  apt-cache policy firefox\nwhich firefox\nfirefox --version
-  239  sudo tee /etc/apparmor.d/firefox.mozilla > /dev/null << 'EOF'\nabi <abi/4.0>,\ninclude <tunables/global>\n\nprofile firefox /usr/bin/firefox flags=(unconfined) {\n  userns,\n\n  # Site-specific additions and overrides. See local/README for details.\n  include if exists <local/firefox.mozilla>\n}\nEOF\n\nsudo systemctl reload apparmor
-  240  sudo apparmor_parser -r /etc/apparmor.d/firefox.mozilla
-  241  sudo aa-status | grep firefox
-  242  sudo systemctl restart apparmor\nsudo apparmor_parser -r /etc/apparmor.d/firefox.mozilla\nfirefox --version
-  243  readlink -f /usr/bin/firefox\nfile /usr/bin/firefox
-  244  firefox &\nsleep 2\ncat /proc/$(pgrep -f "firefox$" | head -1)/attr/current
-  245  sudo tee /etc/apparmor.d/firefox.mozilla > /dev/null << 'EOF'\nabi <abi/4.0>,\ninclude <tunables/global>\n\nprofile firefox /usr/lib/firefox/firefox flags=(unconfined) {\n  userns,\n  include if exists <local/firefox.mozilla>\n}\nEOF\n\nsudo apparmor_parser -r /etc/apparmor.d/firefox.mozilla
-  246  firefox --version
-  247  # Install required packages for third-party repositories\nsudo apt update\nsudo apt install debian-archive-keyring # Debian-only\nsudo apt install curl gpg apt-transport-https\n\n# Make sure the keyrings directory exists\nsudo install -m 0755 -d /etc/apt/keyrings\n\n# Import the GPG key and enable the repository\ncurl -fsSL https://packagecloud.io/filips/FirefoxPWA/gpgkey | gpg --dearmor | sudo tee /etc/apt/keyrings/firefoxpwa.gpg > /dev/null\necho "deb [signed-by=/etc/apt/keyrings/firefoxpwa.gpg] https://packagecloud.io/filips/FirefoxPWA/any any main" | sudo tee /etc/apt/sources.list.d/firefoxpwa.list > /dev/null\n\n# Refresh repositories and install the package\nsudo apt update\nsudo apt install firefoxpwa
-  248  firefoxpwa list
-  249  firefoxpwa profile 
-  250  firefoxpwa site
-  251  firefoxpwa site unistall 01M038WFP5AT4BSJNPSX3F1BN1
-  252  firefoxpwa site uninstall 01M038WFP5AT4BSJNPSX3F1BN1
-  253  firefoxpwa site uninstall 01M038WFV1JVBDKQSNMS1047DR
-  254  firefoxpwa profile list
-  255  npx update-browserslist-db@latest
-  256  pn i -D vue-loader
-  257  pn i -D css-loader
-  258  pn i -D postcss-loader
-  259  pn i -D url-loader
-  260  rm -rf node_modules pnpm-lock.yaml\npnpm install
-  261  pn i -D babel-loader
-  262  pn exec quasar clean
-  263  pn i -D vue-loader css-loader
-  264  pn i -D url-loader postcss-loader
-  265  pn i -D sass-loader
-  266  cd dist/pwa
-  267  pn exec quasar serve -h
-  268  quasar clean
-  269  cd ..
-  270  pn exec quasar build -m pwa
-  271  corepack use pnpm@11
-  272  pnpm add -g @quasar/cli
-  273  composer dump-autoload\n
-  274  php "artisan" serve --host=localhost --port=8000
-  275  spark make:migration
-  276  spark routes:list
-  277  composer update
-  278  pn run preview
-  279  npm dev
-  280  git init
-  281  git add .
-  282  git commit -m 'init'
-  283  nvm install 22
-  284  npm install
-  285  nvm use 22
-  286  npm run e2e:open
-  287  pn i --save-dev start-server-and-test
-  288  npm i --save-dev start-server-and-test
-  289  quasar run dev
-  290  cd bani-asror-
-  291  cd bani-asror-api
-  292  htop
-  293  btop
-  294  git clone https://github.com/deepseek-ai/deepseek-harness.git\ncd deepseek-harness
-  295  ~
-  296  pn i -g
-  297  pn dsh web
-  298  cd ~/Documents/Repositories/bani-asror-api
-  299  vlc
-  300  vim
-  301  phpsel
-  302  cd ../bani-asror-app
-  303  composer remove myth/auth
-  304  composer require codeigniter4/shield
-  305  composer require codeigniter4/settings
-  306  composer require deployed/myth-to-shield
-  307  php spark mythToShield:migrate
-  308  php spark migrate:status
-  309  php spark migrate:refresh --all
-  310  mkdir Latihan
-  311  pnpm create vue@latest
-  312  cd vue-project
-  313  code 
-  314  pnpm i
-  315  rm -rf node_modules pnpm-lock.yaml
-  316  npm run e2e:dev
-  317  npm run storybook
-  318  npm run build
-  319  npm run test
-  320  npm run e2e
-  321  npm run lint
-  322  sudo apt update
-  323  node --test optional-06-full-coverage-testing/index.test.js
-  324  node ./optional-07-real-world-scenario/main.js
-  325  sudo node optional-07-real-world-scenario/main.js
-  326  node --test ./optional-06-full-coverage-testing/index.test.js
-  327  php spark make:migration ModifyFamiliesForeignKeys\n
-  328  spark migrate:rollback
-  329  spark migrate
-  330  git pull
-  331  git config pull.rebase false\ngit pull origin dev
-  332  devin
-  333  php -v
-  334  phpsel 8.2
-  335  phpsel 8.4
-  336  composer i
-  337  php spark test tests/Feature/OrderApiTest.php
-  338  php spark test tests/Feature/OrderDetailApiTest.php
-  339  php spark test
-  340  node test 03-writing-test/index.test.js
-  341  node --test 03-writing-test/index.test.js
-  342  node optional-04-oop/main.js
-  343  node optional-05-recursive/main.js
-  344  node --test --experimental-test-coverage ./optional-06-full-coverage-testing/index.test.js
-  345  node optional-07-real-world-scenario/main.js
-  346  php spark test tests/Feature/AuthApiTest.php
-  347  opencode
-  348  npx @deepseek-ai/dsh web
-  349  php spark test tests/database/ExampleDatabaseTest.php\ncomposer test
-  350  ./vendor/bin/pest --debug
-  351  ./vendor/bin/pest --testdox
-  352  curl -I https://baniasror.net/sw.js
-  353  pn i -g firebase-tools
-  354  cd
-  355  apt list --upgradable
-  356  nn
-  357  spark test
-  358  quasar -h
-  359  quasar serve
-  360  quasar dev -p 3003
-  361  ssh -p 65002 u670454241@46.202.186.156
-  362  quasar serve --history dist/pwa
-  363  cd ../awet-makmur-api
-  364  pn run test:ui
-  365  pn run e2e
-  366  art test
-  367  cd Do
-  368  cd Documents
-  369  cd Latihan
-  370  pnpm create vite vue-app --template vue
-  371  cd vue-app
-  373  pnpm add vue-router
-  374  pn add tailwindcss @tailwindcss/vite
-  375  pn add tailwindcss @tailwindcss/postcss postcss
-  376  spark routes
-  377  nnn
-  378  ssh idsantri@31.97.105.11
-  379  pn run preview -p 5001
-  380  pn run preview --port 5001
-  381  pn up quasar@lates
-  382  pn up quasar@latest
-  383  pn view quasar version
-  384  pn view quasar versions
-  385  quasar dev 
-  386  spark migrate:status
-  387  pn up datatables.net-dt@3
-  388  pn up datatables.net-dt@latest
-  389  node -v
-  390  npm -v
-  391  pn i -g @quasar/cli
-  392  pn i --force
-  393  firebase deploy
-  394  cd ../bani-asror-api
-  395  ..
-  396  cd Repositories
-  397  cd idsantri
-  398  neofetch
-  399  apt install neofetch
-  400  sudo apt install neofetch
-  401  fastfetch
-  402  ping google.com
-  403  ping 153.92.9.250
-  404  ping idsantri.my.id
-  405  pn run start
-  406  gy
-  407  composer test test\Admin\ListTest
-  408  composer test test\Feature\Admin\ListTest
-  409  composer test test/Feature/Admin/ListTest
-  410  art test tests/Feature/Admin/ListTest.php
-  411  art test tests/Feature/Admin/KelasTest.php
-  412  ping yayasanistiqlal.com
-  413  ssh -p 65002 u781921875@153.92.9.250
-  414  ping 192.168.100.1
-  415  pn run test
-  416  npm run dev
-  417  art test tests/Feature/Admin/UserTest.php
-  418  art test tests/Feature/Admin/AuthTest.php
-  419  update
-  420  npx eslint
-  421  wget "https://software-download.microsoft.com/db/Win11_23H2_English_x64.iso"\n
-  422  php artisan make:migration add_check_constraint_to_images_table
-  423  art test tests/Feature/Admin/WaliTest.php
-  424  composer format
-  425  php artisan migrate:rollback --step=1
-  426  art migrate:status
-  427  art migrate
-  428  agy
-  429  art test tests/Feature/Admin/SantriTest.php
-  430  rpn run dev
-  431  cat /etc/shells
-  432  sudd su root
-  433  ll
-  434  ls
-  435  top
-  436  df
-  437  man su
-  438  man date
-  439  cat .bash_history
-  440  cat ~/.bash_history
-  441  use corepack pnpm@10
-  442  corepack use pnpm@10
-  443  quasar build -m pwa
-  444  composer test
-  445  quasar dev
-  446  art serve
-  447  cd /tmp
-  448  git clone https://github.com/sharjeelmazhar/nautilus-open-in-code.git\ncd nautilus-open-in-code\n./install.sh
-  449  sudo apt install gnome-sushi
-  450  nautilus -q
-  451  sudo apt install nautilus-actions
-  452  sudo apt install rclone\n
-  453  rclone --help
-  454  spark serve
-  455  sudo apt install ./zoom_amd64.deb
-  456  nvm use 24
-  457  npm i
-  458  npm run start-dev
-  459  pn run start-dev
-  460  corepack prepare activate pnpm@12
-  461  corepack prepare --activate pnpm@12
-  462  pn run build
-  463  pn -v
-  464  git config --global merge.ours.driver true
-  465  ssh -p 65002 u556510679@46.202.138.41
-  466  pwd
-  467  free
-  468  man rclone 
-  469  rclone
-  470  rclone test
-  471  man free
-  472  free cache
-  473  su root
-  474  id mariadb
-  475  id mysql
-  476  ps aux
-  477  ps -aux
-  478  man ps
-  479  gid
-  480  id
-  481  sudo su root
-  482  df -h
-  483  df 
-  484  losetup
-  485  n i
-  486  nginx
-  487  sudo apt i nginx
-  488  sudo apt install nginx
-  489  sudo systemctl status nginx
-  490  cd /var/www
-  492  ls -l
-  493  ls -l ./www
-  494  ls -l ./html
-  495  date
-  496  date; ls
-  497  date && ls
-  498  set
-  499  env
-  500  echo LOGNAME
-  501  echo $LOGNAME
-  502  number=100
-  503  echo $number
-  504  set grep | number
-  505  TEST_VAR='Hello World!'
-  506  set | grep number
-  508  set | grep TEST_VAR
-  509  exit
-  510  x=1
-  511  echo $((x+=1))
-  512  y=3
-  513  echo $((x+=y))
-  514  echo $x
-  515  os=('linux' 'macos' 'windows')
-  516  echo ${os[@]}
-  517  for berkas in /var/log/*.log\ndo\n  ls -lh $berkas\ndone
-  518  Hello () {\n  echo "Hello World"\n}
-  519  Hello() {\n  echo "Hello World"\n}
-  520  function Hello() {\n  echo "Hello World"\n}
-  521  Hello
-  522  Hello()\n
-  523  Hello() {  echo "Hello World";}
-  524  Hello () { echo "Hello World"; }
-  525  Hello;
-  526  Hell() {  echo "Hello World"; }
-  527  Hell
-  528  cd ~
-  530  ls -alh
-  531  ls -lah
-  532  ls -lah > ls.txt
-  533  echo baris berikutnya >> ls.txt
-  534  cat ls.txt
-  535  > ls.txt
-  536  wc -l ls.txt
-  537  ls -l /var/log/*.log | wc -l
-  538  n = 2
-  539  n=2
-  540  echo n
-  541  n="2"
-  542  echo $n
-  551  echo "# dicoding-linux-sysadmin" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/oets-man/dicoding-linux-sysadmin.git\ngit push -u origin main
-  553  git status
-  554  gh auth status
-  557  gh auth login
-  558  gh auth
-  559  gh auth switch
-  560  code .
-  562  bash history
-  563  history | history.txt
-  564  history
-  566  pn i
-  567  pn approve-builds
-  568  pn run dev
-  578  clear
-  580  bash
-  581  bash script.sh
-  582  tree
+  108  cat ~/.zshrc | grep -A2 plugins
+  109  mkdir -p ~/.local/share/fonts\ncd /tmp\n\nwget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/UbuntuMono.zip\nunzip UbuntuMono.zip -d ~/.local/share/fonts/UbuntuMonoNF\nfc-cache -fv
+  110  fc-list | grep -i "UbuntuMono Nerd"
+  111  sudo apt upgrade
+  112  cd ./idsantri
+  113  sudo apt install wine
+  114  cd /tmp\nwget https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/microsoft-edge-stable_current_amd64.deb 2>/dev/null || \\ncurl -L -o microsoft-edge-stable_current_amd64.deb "https://packages.microsoft.com/keys/microsoft.asc"
+  115  sudo apt install ./build/releases/whatsapp-linux-x64.deb
+  116  pn run build:linux
+  117  pn audit fix
+  118  pn approve-scripts
+  119  git clone https://github.com/oOthkOo/whatsapp-desktop.git
+  120  cd whatsapp-desktop
+  121  cd build
+  122  l
+  123  chmod +x releases
+  124  apt install releases
+  125  sudo apt install releases
+  126  sudo apt install releases -f
+  127  npm approve-scripts --allow-scripts-pending
+  128  npm approve-scripts electron
+  129  npm run build:all
+  130  yarn -v
+  131  chmod 777 .
+  132  cd ~/Documents/Repositories/idsantri-admin
+  133  pnpm install -g opencode-ai
+  134  curl -fsSL https://cli.kiro.dev/install | bash
+  135  kiro
+  136  Kiro
+  137  kiro-cli
+  138  gemini
+  139  pn i -g 9router
+  140  9router
+  141  rtk
+  142  curl -fsSL https://raw.githubusercontent.com/kernalix7/winpodx/main/uninstall.sh | bash -s -- --yes
+  143  npm run build:linux
+  144  apt install vlc
+  145  sudo apt install vlc
+  146  curl -fsSL https://antigravity.google/cli/install.sh | bash
+  147  art test tests/Feature/Admin/Auth/RegisterTest.php
+  148  art test tests/Feature
+  149  install nnn
+  150  install ranger
+  151  install lazygit
+  152  cd Reviews
+  153  cd React\ Dasar
+  154  cd luckyferdiansyah47
+  155  cd Projects
+  156  cd iass-api
+  157  lazygit
+  158  sudo apt update && sudo apt install software-properties-common apt-transport-https wget -y\n
+  159  sudo apt update && sudo apt install code -y\n
+  160  sudo tee /etc/apt/sources.list.d/vscode.list
+  161  tee ?
+  162  cd ../idsantri-admin
+  163  install xclip
+  164  install wl-clipboard
+  165  art test tests/Feature/Admin
+  166  art test tests/Feature/Admin/OrtuTest.php
+  167  art route:list
+  168  cd ~/repo
+  169  cd idsantri-wali
+  170  ranger
+  171  pn i vlc
+  172  install vlc
+  173  apt search teamviewer
+  174  sudo KEYRING=/usr/share/keyrings/cvte.exceedshare.debian.gpg
+  175  sudo apt install apt-transport-https
+  176  wget -qO- https://alryaz.github.io/cvte-exceedshare-debian/public.key | gpg --dearmor - | ${SUDO} tee $KEYRING >/dev/null\n
+  177  sudo su
+  178  sudo apt install -y gnome-network-displays
+  179  gnome-network-displays
+  180  iw list | grep -A 10 "Supported interface modes"
+  181  sudo apt install -y avahi-daemon\nsudo systemctl enable --now avahi-daemon
+  182  install deskreen
+  183  sudo snap install deskreen
+  184  install apt tightvncserver
+  185  vncserver:1
+  186  vncserver:1 -geometry
+  187  vncserver
+  188  apt install sunshine
+  189  sudo apt install sunshine
+  190  install neofetch
+  191  install fastfetch
+  192  cd ./data
+  193  cd Data
+  194  pn setup
+  195  firebase login
+  196  pn approve-builds 
+  197  nvm list
+  198  cls
+  199  quasar build
+  200  pn setup --force
+  201  source ~/.zshrc
+  202  pn approve-builds -g
+  203  firebase init
+  204  ping baniasror.net
+  205  spark migrate:fresh
+  206  spark migrate:refresh
+  207  composer upgrade
+  208  composer config minimum-stability dev\ncomposer config prefer-stable true
+  209  php spark shield:setup
+  210  gh auth 
+  211  git push origin dev:dev
+  212  spark migrate:refresh --all
+  213  chmod +x git-hooks/pre-commit
+  214  composer lint
+  215  git commit --amend -m "chore(composer): add config file creation to post-root-package-install script"
+  216  composer validate
+  217  sudo install -d -m 0755 /etc/apt/keyrings
+  218  sudo apt-get install wget\n
+  219  wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | sudo tee /etc/apt/keyrings/packages.mozilla.org.asc > /dev/null
+  220  gpg -n -q --import --import-options import-show /etc/apt/keyrings/packages.mozilla.org.asc | awk '/pub/{getline; gsub(/^ +| +$/,""); if($0 == "35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3") print "\nThe key fingerprint matches ("$0").\n"; else print "\nVerification failed: the fingerprint ("$0") does not match the expected one.\n"}'
+  221  sudo tee /etc/apt/sources.list.d/mozilla.sources > /dev/null << EOF\nTypes: deb\nURIs: https://packages.mozilla.org/apt\nSuites: mozilla\nComponents: main\nSigned-By: /etc/apt/keyrings/packages.mozilla.org.asc\nEOF
+  222  sudo tee /etc/apt/preferences.d/mozilla > /dev/null << EOF\nPackage: *\nPin: origin packages.mozilla.org\nPin-Priority: 1000\nEOF
+  223  udo snap remove firefox
+  224  sudo snap remove firefox
+  225  sudo tee /etc/apt/preferences.d/mozilla > /dev/null << EOF\nPackage: firefox\nPin: release o=Ubuntu\nPin-Priority: -1\nEOF
+  226  sudo apt-get update\nsudo apt-get install firefox
+  227  cat /etc/apt/preferences.d/mozilla
+  228  cat /etc/apt/sources.list.d/mozilla.list
+  229  ls -la /etc/apt/sources.list.d/ | grep -i mozilla
+  230  cat /etc/apt/sources.list.d/mozilla.sources
+  231  apt-cache policy firefox
+  232  apt-mark showhold | grep firefox
+  233  sudo apt purge -y firefox\nsudo apt autoremove -y
+  234  sudo apt update\nsudo apt install -y firefox
+  235  apt-cache policy firefox\nwhich firefox\nfirefox --version
+  236  sudo tee /etc/apparmor.d/firefox.mozilla > /dev/null << 'EOF'\nabi <abi/4.0>,\ninclude <tunables/global>\n\nprofile firefox /usr/bin/firefox flags=(unconfined) {\n  userns,\n\n  # Site-specific additions and overrides. See local/README for details.\n  include if exists <local/firefox.mozilla>\n}\nEOF\n\nsudo systemctl reload apparmor
+  237  sudo apparmor_parser -r /etc/apparmor.d/firefox.mozilla
+  238  sudo aa-status | grep firefox
+  239  sudo systemctl restart apparmor\nsudo apparmor_parser -r /etc/apparmor.d/firefox.mozilla\nfirefox --version
+  240  readlink -f /usr/bin/firefox\nfile /usr/bin/firefox
+  241  firefox &\nsleep 2\ncat /proc/$(pgrep -f "firefox$" | head -1)/attr/current
+  242  sudo tee /etc/apparmor.d/firefox.mozilla > /dev/null << 'EOF'\nabi <abi/4.0>,\ninclude <tunables/global>\n\nprofile firefox /usr/lib/firefox/firefox flags=(unconfined) {\n  userns,\n  include if exists <local/firefox.mozilla>\n}\nEOF\n\nsudo apparmor_parser -r /etc/apparmor.d/firefox.mozilla
+  243  firefox --version
+  244  # Install required packages for third-party repositories\nsudo apt update\nsudo apt install debian-archive-keyring # Debian-only\nsudo apt install curl gpg apt-transport-https\n\n# Make sure the keyrings directory exists\nsudo install -m 0755 -d /etc/apt/keyrings\n\n# Import the GPG key and enable the repository\ncurl -fsSL https://packagecloud.io/filips/FirefoxPWA/gpgkey | gpg --dearmor | sudo tee /etc/apt/keyrings/firefoxpwa.gpg > /dev/null\necho "deb [signed-by=/etc/apt/keyrings/firefoxpwa.gpg] https://packagecloud.io/filips/FirefoxPWA/any any main" | sudo tee /etc/apt/sources.list.d/firefoxpwa.list > /dev/null\n\n# Refresh repositories and install the package\nsudo apt update\nsudo apt install firefoxpwa
+  245  firefoxpwa list
+  246  firefoxpwa profile 
+  247  firefoxpwa site
+  248  firefoxpwa site unistall 01M038WFP5AT4BSJNPSX3F1BN1
+  249  firefoxpwa site uninstall 01M038WFP5AT4BSJNPSX3F1BN1
+  250  firefoxpwa site uninstall 01M038WFV1JVBDKQSNMS1047DR
+  251  firefoxpwa profile list
+  252  npx update-browserslist-db@latest
+  253  pn i -D vue-loader
+  254  pn i -D css-loader
+  255  pn i -D postcss-loader
+  256  pn i -D url-loader
+  257  rm -rf node_modules pnpm-lock.yaml\npnpm install
+  258  pn i -D babel-loader
+  259  pn exec quasar clean
+  260  pn i -D vue-loader css-loader
+  261  pn i -D url-loader postcss-loader
+  262  pn i -D sass-loader
+  263  cd dist/pwa
+  264  pn exec quasar serve -h
+  265  quasar clean
+  266  cd ..
+  267  pn exec quasar build -m pwa
+  268  corepack use pnpm@11
+  269  pnpm add -g @quasar/cli
+  270  composer dump-autoload\n
+  271  php "artisan" serve --host=localhost --port=8000
+  272  spark make:migration
+  273  spark routes:list
+  274  composer update
+  275  pn run preview
+  276  npm dev
+  277  git init
+  278  git add .
+  279  git commit -m 'init'
+  280  nvm install 22
+  281  npm install
+  282  nvm use 22
+  283  npm run e2e:open
+  284  pn i --save-dev start-server-and-test
+  285  npm i --save-dev start-server-and-test
+  286  quasar run dev
+  287  cd bani-asror-
+  288  cd bani-asror-api
+  289  htop
+  290  btop
+  291  git clone https://github.com/deepseek-ai/deepseek-harness.git\ncd deepseek-harness
+  292  ~
+  293  pn i -g
+  294  pn dsh web
+  295  cd ~/Documents/Repositories/bani-asror-api
+  296  vlc
+  297  vim
+  298  phpsel
+  299  cd ../bani-asror-app
+  300  composer remove myth/auth
+  301  composer require codeigniter4/shield
+  302  composer require codeigniter4/settings
+  303  composer require deployed/myth-to-shield
+  304  php spark mythToShield:migrate
+  305  php spark migrate:status
+  306  php spark migrate:refresh --all
+  307  mkdir Latihan
+  308  pnpm create vue@latest
+  309  cd vue-project
+  310  code 
+  311  pnpm i
+  312  rm -rf node_modules pnpm-lock.yaml
+  313  npm run e2e:dev
+  314  npm run storybook
+  315  npm run build
+  316  npm run test
+  317  npm run e2e
+  318  npm run lint
+  319  sudo apt update
+  320  node --test optional-06-full-coverage-testing/index.test.js
+  321  node ./optional-07-real-world-scenario/main.js
+  322  sudo node optional-07-real-world-scenario/main.js
+  323  node --test ./optional-06-full-coverage-testing/index.test.js
+  324  php spark make:migration ModifyFamiliesForeignKeys\n
+  325  spark migrate:rollback
+  326  spark migrate
+  327  git pull
+  328  git config pull.rebase false\ngit pull origin dev
+  329  devin
+  330  php -v
+  331  phpsel 8.2
+  332  phpsel 8.4
+  333  composer i
+  334  php spark test tests/Feature/OrderApiTest.php
+  335  php spark test tests/Feature/OrderDetailApiTest.php
+  336  php spark test
+  337  node test 03-writing-test/index.test.js
+  338  node --test 03-writing-test/index.test.js
+  339  node optional-04-oop/main.js
+  340  node optional-05-recursive/main.js
+  341  node --test --experimental-test-coverage ./optional-06-full-coverage-testing/index.test.js
+  342  node optional-07-real-world-scenario/main.js
+  343  php spark test tests/Feature/AuthApiTest.php
+  344  opencode
+  345  npx @deepseek-ai/dsh web
+  346  php spark test tests/database/ExampleDatabaseTest.php\ncomposer test
+  347  ./vendor/bin/pest --debug
+  348  ./vendor/bin/pest --testdox
+  349  curl -I https://baniasror.net/sw.js
+  350  pn i -g firebase-tools
+  351  cd
+  352  apt list --upgradable
+  353  nn
+  354  spark test
+  355  quasar -h
+  356  quasar serve
+  357  quasar dev -p 3003
+  358  ssh -p 65002 u670454241@46.202.186.156
+  359  quasar serve --history dist/pwa
+  360  cd ../awet-makmur-api
+  361  pn run test:ui
+  362  pn run e2e
+  363  art test
+  364  cd Do
+  365  cd Documents
+  366  cd Latihan
+  367  pnpm create vite vue-app --template vue
+  368  cd vue-app
+  369  pnpm add vue-router
+  370  pn add tailwindcss @tailwindcss/vite
+  371  pn add tailwindcss @tailwindcss/postcss postcss
+  372  spark routes
+  373  nnn
+  374  ssh idsantri@31.97.105.11
+  375  pn run preview -p 5001
+  376  pn run preview --port 5001
+  377  pn up quasar@lates
+  378  pn up quasar@latest
+  379  pn view quasar version
+  380  pn view quasar versions
+  381  quasar dev 
+  382  spark migrate:status
+  383  pn up datatables.net-dt@3
+  384  pn up datatables.net-dt@latest
+  385  node -v
+  386  npm -v
+  387  pn i -g @quasar/cli
+  388  pn i --force
+  389  firebase deploy
+  390  cd ../bani-asror-api
+  391  ..
+  392  cd Repositories
+  393  cd idsantri
+  394  neofetch
+  395  apt install neofetch
+  396  sudo apt install neofetch
+  397  fastfetch
+  398  ping google.com
+  399  ping 153.92.9.250
+  400  ping idsantri.my.id
+  401  pn run start
+  402  gy
+  403  composer test test\Admin\ListTest
+  404  composer test test\Feature\Admin\ListTest
+  405  composer test test/Feature/Admin/ListTest
+  406  art test tests/Feature/Admin/ListTest.php
+  407  art test tests/Feature/Admin/KelasTest.php
+  408  ping yayasanistiqlal.com
+  409  ssh -p 65002 u781921875@153.92.9.250
+  410  ping 192.168.100.1
+  411  pn run test
+  412  npm run dev
+  413  art test tests/Feature/Admin/UserTest.php
+  414  art test tests/Feature/Admin/AuthTest.php
+  415  update
+  416  npx eslint
+  417  wget "https://software-download.microsoft.com/db/Win11_23H2_English_x64.iso"\n
+  418  php artisan make:migration add_check_constraint_to_images_table
+  419  art test tests/Feature/Admin/WaliTest.php
+  420  composer format
+  421  php artisan migrate:rollback --step=1
+  422  art migrate:status
+  423  art migrate
+  424  agy
+  425  art test tests/Feature/Admin/SantriTest.php
+  426  rpn run dev
+  427  cat /etc/shells
+  428  sudd su root
+  429  ll
+  430  ls
+  431  top
+  432  df
+  433  man su
+  434  man date
+  435  cat .bash_history
+  436  cat ~/.bash_history
+  437  use corepack pnpm@10
+  438  corepack use pnpm@10
+  439  quasar build -m pwa
+  440  composer test
+  441  quasar dev
+  442  art serve
+  443  cd /tmp
+  444  git clone https://github.com/sharjeelmazhar/nautilus-open-in-code.git\ncd nautilus-open-in-code\n./install.sh
+  445  sudo apt install gnome-sushi
+  446  nautilus -q
+  447  sudo apt install nautilus-actions
+  448  sudo apt install rclone\n
+  449  rclone --help
+  450  spark serve
+  451  sudo apt install ./zoom_amd64.deb
+  452  nvm use 24
+  453  npm i
+  454  npm run start-dev
+  455  pn run start-dev
+  456  corepack prepare activate pnpm@12
+  457  corepack prepare --activate pnpm@12
+  458  pn run build
+  459  pn -v
+  460  git config --global merge.ours.driver true
+  461  ssh -p 65002 u556510679@46.202.138.41
+  462  pwd
+  463  free
+  464  man rclone 
+  465  rclone
+  466  rclone test
+  468  free cache
+  469  su root
+  470  id mariadb
+  471  id mysql
+  472  ps aux
+  473  ps -aux
+  474  man ps
+  475  gid
+  476  id
+  477  sudo su root
+  478  df -h
+  479  df 
+  480  losetup
+  481  n i
+  482  nginx
+  483  sudo apt i nginx
+  484  sudo apt install nginx
+  485  sudo systemctl status nginx
+  486  cd /var/www
+  487  ls -l ./www
+  488  ls -l ./html
+  489  date
+  490  date; ls
+  491  date && ls
+  492  set
+  493  env
+  494  echo LOGNAME
+  495  echo $LOGNAME
+  496  number=100
+  497  echo $number
+  498  set grep | number
+  499  TEST_VAR='Hello World!'
+  500  set | grep number
+  501  set | grep TEST_VAR
+  502  exit
+  503  x=1
+  504  echo $((x+=1))
+  505  y=3
+  506  echo $((x+=y))
+  507  echo $x
+  508  os=('linux' 'macos' 'windows')
+  509  echo ${os[@]}
+  510  for berkas in /var/log/*.log\ndo\n  ls -lh $berkas\ndone
+  511  Hello () {\n  echo "Hello World"\n}
+  512  Hello() {\n  echo "Hello World"\n}
+  513  function Hello() {\n  echo "Hello World"\n}
+  514  Hello
+  515  Hello()\n
+  516  Hello() {  echo "Hello World";}
+  517  Hello () { echo "Hello World"; }
+  518  Hello;
+  519  Hell() {  echo "Hello World"; }
+  520  Hell
+  521  cd ~
+  522  ls -alh
+  523  ls -lah
+  524  ls -lah > ls.txt
+  525  echo baris berikutnya >> ls.txt
+  526  cat ls.txt
+  527  > ls.txt
+  528  wc -l ls.txt
+  529  ls -l /var/log/*.log | wc -l
+  530  n = 2
+  531  n=2
+  532  echo n
+  533  n="2"
+  534  echo $n
+  535  echo "# dicoding-linux-sysadmin" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/oets-man/dicoding-linux-sysadmin.git\ngit push -u origin main
+  536  git status
+  537  gh auth status
+  538  gh auth login
+  539  gh auth
+  540  gh auth switch
+  541  code .
+  542  bash history
+  543  history | history.txt
+  544  history
+  548  bash
+  549  tree
+  553  chmod +x ./script.sh
+  554  ls -l
+  555  pn i
+  556  pn approve-builds
+  557  pn run dev
+  580  man df
+  585  clear
+  589  man free
+  590  bash script.sh
